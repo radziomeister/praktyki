@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+}
+
+.top {
+    height: 110px;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+
+
+
+.top-left {
+    height: 80px;
+    width: 50%;
+    float: left;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.top-left img {
+    height: 80px;
+    margin-left: 50px;
+    float: left;
+}
+
+.top-left p {
+    color: white;
+    font-family: 'Seymour One', sans-serif;
+    margin-top: 5px;
+}
+
+.top-right {
+    height: 80px;
+    width: 50%;
+    float: left;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.media {
+    height: 50px;
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 20px;
+    float: right;
+    background-color: gray;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.media p {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.media2 {
+    height: 50px;
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 20px;
+    float: right;
+    background-color: gray;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.media2 p {
+    margin-top: 10px;
+}
+
+.media3 {
+    height: 50px;
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 20px;
+    float: right;
+    background-color: gray;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.media3 p {
+    margin-top: 10px;
+}
+
+.left-side {
+    height: 100%;
+    width: 10%;
+    background-color: transparent;
+    float: left;
+    position: relative;
+}
+
+.center {
+    height: 100%;
+    width: 80%;
+    float: left;
+    position: relative;
+}
+
+.right-side {
+    height: 100%;
+    width: 10%;
+    background-color: transparent;
+    float: left;
+    position: relative;
+}
+
+
+.card:hover {
+    transition-duration: 2s;
+    height: 400px;
+}
+
+.button {
+    height: 50px;
+    width: 100px;
+    color: white;
+    margin-left: 30px;
+    background-color: blue;
+    text-align: center;
+}
+
+.div {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: blue;
+    line-height: 50px;
+    text-align: center;
+}

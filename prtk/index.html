@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Seymour+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <div class="top">
+            <div class="top-left">
+                <img src="dice.png">
+                <p>Loose <br> All <br> Your Money</p>
+            </div>
+
+            <div class="top-right">
+                
+                <div class="media3">
+                    <p>About</p>
+                </div>
+                
+
+                <div class="media2">
+                    <p>Slots</p>
+                </div>
+
+                <div class="media">
+                    <p>Home</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="left-side">
+
+          <button class="button">Losowanie</button>
+          <!-- <div class="div">23</div> -->
+          <script>
+            
+              const losowanie = function() {
+              const div = document.createElement("div");
+              div.textContent = Math.floor(Math.random() * 49 + 1);
+              document.body.appendChild(div)
+            }
+
+            const button = document.querySelector("button");
+
+            button.addEventListener("click", losowanie); //jesli kliknie wywoluje funkcje losowanie
+
+            
+          </script>
+
+        </div>
+
+        <div class="center">
+            <div class="card" style="width: 18rem; margin: 100px; float: left;">
+                <img src="slots.jpg" class="card-img-top" alt="Slots_Image">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align: center;">Slots Game</h5>
+                  <p class="card-text" >There you can play on Slots Game where you can win up to <b>77777 coins!</b></p>
+                  <a href="#" class="btn btn-primary"><b>Play Here</b></a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem; margin: 100px; float: left;">
+                <img src="slots.jpg" class="card-img-top" alt="Slots_Image" style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align: center;">Mines</h5>
+                  <p class="card-text" >There you can play Mines Game. Watch out where 
+                    you put your foot down!</p>
+                  <a href="#" class="btn btn-primary"><b>Play Here</b></a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem; margin: 100px; float: left;">
+                <img src="slots.jpg" class="card-img-top" alt="Slots_Image">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align: center;">Card title</h5>
+                  <p class="card-text" >There you can play on Slots Game where you can win up to <b>77777 coins!</b></p>
+                  <a href="#" class="btn btn-primary"><b>Play Here</b></a>
+                </div>
+              </div>
+        </div>
+
+        <div class="right-side">
+
+        </div>
+
+        <footer>
+
+        </footer>
+
+    </body>
+
+</html>
